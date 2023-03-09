@@ -1,0 +1,199 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+/* common styles */
+
+/* header&banner styles */
+.header {
+  height: 669px;
+  background-image: url(../images/banner.png),
+    linear-gradient(360deg, #121212 0%, #12121200 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.banner {
+  text-align: center;
+  padding: 175px 310px;
+  color: #ffffff;
+}
+.banner-title {
+  margin-top: 20px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 65px;
+}
+.banner-desc {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* common section */
+section {
+  margin: 130px 150px;
+  justify-content: center;
+  text-align: center;
+}
+.title {
+  margin-top: 20px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 45px;
+  color: #121212;
+}
+.desc {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #707070;
+}
+.title-desc {
+  margin: auto 20%;
+}
+.btn {
+  background-color: #ff5959;
+  border: none;
+  padding: 16px 12px;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.btn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* cards styles */
+.cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.card {
+  text-align: left;
+  padding: 62px 23px 54px 23px;
+  border-radius: 5px;
+  width: 360px;
+}
+.card-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #121212;
+  margin-top: 32px;
+}
+.card-desc {
+  color: #707070;
+  margin-top: 16px;
+}
+.card-1 {
+  background-color: #4f9da61a;
+}
+.card-2 {
+  background-color: #ff59591a;
+}
+.card-3 {
+  background-color: #fff4d6;
+}
+#card-border {
+  color: #ff5959;
+  background-color: #ffeeee;
+  border: 2px solid #ff5959;
+}
+
+/* Dontae Today */
+.section-1 {
+  margin: 130px 400px;
+}
+.money {
+  padding: 44px 24px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 30px;
+  color: #707070;
+  background-color: #fafafa;
+  border-radius: 5px;
+}
+
+.enter-amount {
+  padding-bottom: 9.5px;
+  color: #b3b3b3;
+  font-weight: 400;
+  font-size: 18px;
+  border-bottom: 1px solid #dadada;
+}
+
+/* how-to-contribute */
+
+.how-to-contribute {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 94px;
+  margin: auto 245px 105px 140px;
+}
+.how-to-contribute img {
+  border-radius: 5px;
+}
+.content {
+  width: 60%;
+}
+
+/* form box */
+.form-box {
+  font-family: "Roboto";
+  font-weight: 500;
+  margin: 50px 315px;
+  background: #fff4d6;
+  display: flex;
+  row-gap: none;
+  padding: 76px 188px;
+}
+.form-email {
+  background-color: #d9d9d9;
+  padding: 14px 218px 14px 17px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+}
+.form-submit-btn {
+  padding: 14px 42px;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #ff5959;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* footer styles */
+footer {
+  height: 177px;
+  background-color: #0b0d17;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container {
+  text-align: center;
+}
+.footer-heading {
+  color: #ff5959;
+  font-family: "Lobster";
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+.footer-desc {
+  color: #d9dbe1;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* ********************************************************************************Mominur Rahmun**PH(6TH)**FCUB(batch26)************************************************************************ */
