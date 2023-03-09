@@ -5,6 +5,10 @@
 }
 
 /* common styles */
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
 
 /* header&banner styles */
 .header {
@@ -63,10 +67,6 @@ section {
   font-weight: 600;
   font-size: 20px;
   margin-top: 30px;
-}
-.btn a {
-  text-decoration: none;
-  color: #ffffff;
 }
 
 /* cards styles */
